@@ -24,8 +24,8 @@ export default class Darkmode {
       }
 
       .darkmode-layer--button {
-        width: 2.9rem;
-        height: 2.9rem;
+        width: 1rem;
+        height: 1rem;
         border-radius: 50%;
         right: ${right};
         bottom: ${bottom};
