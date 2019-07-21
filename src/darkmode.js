@@ -1,5 +1,7 @@
 export default class Darkmode {
   constructor(options) {
+    const width = options && options.width || '2.9rem';
+    const height = options && options.height || '2.9rem';
     const bottom = options && options.bottom || '32px';
     const right = options && options.right || '32px';
     const left = options && options.left || 'unset';
@@ -24,8 +26,8 @@ export default class Darkmode {
       }
 
       .darkmode-layer--button {
-        width: 1rem;
-        height: 1rem;
+        width: ${width};
+        height: ${height};
         border-radius: 50%;
         right: ${right};
         bottom: ${bottom};
